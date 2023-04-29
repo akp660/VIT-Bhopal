@@ -25,7 +25,8 @@
                 android:fontFamily="sans-serif-smallcaps"
                 android:text="Developer"
                 android:textColor="#000000"
-                android:textSize="20sp"
+                android:textSize="22sp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -36,7 +37,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="10dp"
-                app:cardBackgroundColor="#919191"
+                app:cardBackgroundColor="#2A2F4F"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="8dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -55,8 +56,8 @@
                         android:layout_marginTop="25dp"
                         android:fontFamily="@font/andika"
                         android:text="Abhijeet Kumar Pandey"
-                        android:textColor="#000000"
-                        android:textSize="18sp"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
@@ -66,33 +67,47 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
                         android:text="19 | Dhanbad, India"
+                        android:textColor="#D5D2D2"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
                     <androidx.cardview.widget.CardView
-                        android:layout_width="200dp"
-                        android:layout_height="200dp"
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
                         app:cardBackgroundColor="#BDFDFD"
                         android:elevation="12dp"
                         android:layout_marginTop="50dp"
                         android:layout_marginEnd="10dp"
                         app:cardCornerRadius="500dp"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/abhijeet"/>
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </androidx.cardview.widget.CardView>
 
                     <ImageView
                         android:id="@+id/imageView6"
-                        android:layout_width="300px"
-                        android:layout_height="300px"
-                        android:layout_marginStart="15dp"
+                        android:layout_width="250px"
+                        android:layout_height="250px"
+                        android:layout_marginStart="20dp"
                         android:layout_marginBottom="20dp"
                         android:src="@drawable/gmail"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
 
                     <ImageView
-                        android:layout_width="300px"
-                        android:layout_height="300px"
+                        android:layout_width="250px"
+                        android:layout_height="250px"
                         android:layout_marginBottom="20dp"
                         android:src="@drawable/github"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -100,9 +115,9 @@
                         app:layout_constraintStart_toStartOf="parent" />
 
                     <ImageView
-                        android:layout_width="300px"
-                        android:layout_height="300px"
-                        android:layout_marginEnd="15dp"
+                        android:layout_width="250px"
+                        android:layout_height="250px"
+                        android:layout_marginEnd="20dp"
                         android:layout_marginBottom="20dp"
                         android:src="@drawable/linkedin"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -123,17 +138,18 @@
                 android:text="Contributors ->"
                 android:textColor="#000000"
                 android:textSize="20sp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/cardView3" />
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView4"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="250dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="10dp"
-                app:cardBackgroundColor="#A8CBFF"
+                app:cardBackgroundColor="#917FB3"
                 app:cardCornerRadius="12dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -167,24 +183,24 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
+                        android:layout_marginTop="20dp"
                         android:layout_marginEnd="25dp"
                         app:cardCornerRadius="500dp"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <ImageView
-                        android:layout_width="250px"
-                        android:layout_height="250px"
-                        android:layout_marginStart="15dp"
+                        android:layout_width="200px"
+                        android:layout_height="200px"
+                        android:layout_marginStart="20dp"
                         android:layout_marginBottom="20dp"
                         android:src="@drawable/gmail"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
 
                     <ImageView
-                        android:layout_width="250px"
-                        android:layout_height="250px"
+                        android:layout_width="200px"
+                        android:layout_height="200px"
                         android:layout_marginBottom="20dp"
                         android:src="@drawable/github"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -192,9 +208,9 @@
                         app:layout_constraintStart_toStartOf="parent" />
 
                     <ImageView
-                        android:layout_width="250px"
-                        android:layout_height="250px"
-                        android:layout_marginEnd="15dp"
+                        android:layout_width="200px"
+                        android:layout_height="200px"
+                        android:layout_marginEnd="20dp"
                         android:layout_marginBottom="20dp"
                         android:src="@drawable/linkedin"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -208,11 +224,11 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView5"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="250dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="10dp"
-                app:cardBackgroundColor="#DDBEFF"
+                app:cardBackgroundColor="#E5BEEC"
                 app:cardCornerRadius="12dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -225,11 +241,24 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
+                        android:layout_marginTop="20dp"
                         android:layout_marginEnd="25dp"
                         app:cardCornerRadius="500dp"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/jishnu"/>
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </androidx.cardview.widget.CardView>
 
                     <TextView
                         android:id="@+id/textView11"
@@ -253,8 +282,8 @@
                         app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
                     <ImageView
-                        android:layout_width="250px"
-                        android:layout_height="250px"
+                        android:layout_width="200px"
+                        android:layout_height="200px"
                         android:layout_marginStart="15dp"
                         android:layout_marginBottom="20dp"
                         android:src="@drawable/gmail"
@@ -262,8 +291,8 @@
                         app:layout_constraintStart_toStartOf="parent" />
 
                     <ImageView
-                        android:layout_width="250px"
-                        android:layout_height="250px"
+                        android:layout_width="200px"
+                        android:layout_height="200px"
                         android:layout_marginBottom="20dp"
                         android:src="@drawable/github"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -271,8 +300,8 @@
                         app:layout_constraintStart_toStartOf="parent" />
 
                     <ImageView
-                        android:layout_width="250px"
-                        android:layout_height="250px"
+                        android:layout_width="200px"
+                        android:layout_height="200px"
                         android:layout_marginEnd="15dp"
                         android:layout_marginBottom="20dp"
                         android:src="@drawable/linkedin"
@@ -286,9 +315,9 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="250dp"
                 app:cardCornerRadius="12dp"
-                app:cardBackgroundColor="#FDB8F4"
+                app:cardBackgroundColor="#FDE2F3"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="10dp"
@@ -305,7 +334,7 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:layout_marginTop="10dp"
+                        android:layout_marginTop="20dp"
                         android:layout_marginEnd="25dp"
                         app:cardCornerRadius="500dp"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -333,8 +362,8 @@
                         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
                     <ImageView
-                        android:layout_width="250px"
-                        android:layout_height="250px"
+                        android:layout_width="200px"
+                        android:layout_height="200px"
                         android:layout_marginStart="15dp"
                         android:layout_marginBottom="20dp"
                         android:src="@drawable/gmail"
@@ -342,8 +371,8 @@
                         app:layout_constraintStart_toStartOf="parent" />
 
                     <ImageView
-                        android:layout_width="250px"
-                        android:layout_height="250px"
+                        android:layout_width="200px"
+                        android:layout_height="200px"
                         android:layout_marginBottom="20dp"
                         android:src="@drawable/github"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -351,8 +380,8 @@
                         app:layout_constraintStart_toStartOf="parent" />
 
                     <ImageView
-                        android:layout_width="250px"
-                        android:layout_height="250px"
+                        android:layout_width="200px"
+                        android:layout_height="200px"
                         android:layout_marginEnd="15dp"
                         android:layout_marginBottom="20dp"
                         android:src="@drawable/linkedin"
