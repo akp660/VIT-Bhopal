@@ -13,16 +13,19 @@
         android:theme="@style/Theme.VITBhopal"
         tools:targetApi="31">
         <activity
-            android:name=".vtop_web"
+            android:name=".profile"
             android:exported="false" />
         <activity
-            android:name=".vtop"
+            android:name=".splash_screen"
+            android:exported="false" />
+        <activity
+            android:name=".vtop_web"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".splash_screen"
+            android:name=".foody"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
