@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+
+    <item android:id="@+id/nav_vtop"
+        android:title="Vtop"
+        android:icon="@drawable/book"/>
+
+    <item android:id="@+id/foody"
+        android:title="Foody"
+        android:icon="@drawable/plate"/>
+
+    <item android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/setting"/>
+</menu>
