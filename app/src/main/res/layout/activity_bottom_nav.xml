@@ -6,16 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".bottom_nav">
 
-    <FrameLayout
-        android:id="@+id/container"
+    <include
+        layout="@layout/activity_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="?attr/actionBarSize">
-    </FrameLayout>
+    </include>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bnView"
-        android:background="#C8C8C8"
+        android:background="#F5EBEB"
         app:menu="@menu/nav_items"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
