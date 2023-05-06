@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ECF2FF"
+    android:background="#F5EBEB"
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
@@ -83,23 +83,31 @@
                 android:id="@+id/cardView"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
-                app:cardMaxElevation="10dp"
-                app:cardBackgroundColor="#F6D5D5"
                 android:layout_marginStart="10dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginEnd="10dp"
+                app:cardBackgroundColor="#F6D5D5"
                 app:cardCornerRadius="10dp"
-                app:cardElevation="8dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView2"
                 android:layout_width="match_parent"
                 android:layout_height="350dp"
                 android:layout_marginStart="10dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginEnd="10dp"
                 app:cardBackgroundColor="#9CEFDE"
                 app:cardCornerRadius="10dp"
@@ -138,7 +146,9 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             tools:layout_editor_absoluteX="0dp"
-                            tools:layout_editor_absoluteY="28dp"/>
+                            tools:layout_editor_absoluteY="28dp" />
+
+
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -149,13 +159,13 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="350dp"
-                app:cardElevation="10dp"
                 android:layout_marginStart="10dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="120dp"
                 app:cardBackgroundColor="#B0DAFF"
                 app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -184,7 +194,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12sp"
                         android:layout_marginTop="5dp"
-                        android:text="VelloreInstiute of Technology, Bhopal."
+                        android:text="Vellore Instiute of Technology, Bhopal."
                         android:textColor="#000000"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.0"
