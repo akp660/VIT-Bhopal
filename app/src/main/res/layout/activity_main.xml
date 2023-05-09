@@ -36,10 +36,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                    <include
-                        layout="@layout/activity_foody"
+                    <ScrollView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
+                        android:layout_height="match_parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <include
+                            layout="@layout/activity_foody"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </ScrollView>
 
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -86,13 +96,25 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent">
 
-                        <ScrollView
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            tools:layout_editor_absoluteX="0dp"
-                            tools:layout_editor_absoluteY="28dp" />
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
 
+                            <include
+                                layout="@layout/activity_facuilty_info"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
 
+                        </androidx.constraintlayout.widget.ConstraintLayout>
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
