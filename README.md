@@ -2,4 +2,4 @@
 
 An android applicaction for vit bhopal students.
 
-it will be available soon.
+it will be available soon on play store
