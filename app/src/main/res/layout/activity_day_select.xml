@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".day_select"
     android:orientation="horizontal"
-    android:background="#917FB3">
+    android:background="#917FB0">
 
 
         <TextView
